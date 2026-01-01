@@ -266,6 +266,9 @@
     </div>
 
     <script>
+        // Game configuration
+        const SHUFFLE_MOVES = 100; // Number of random moves to shuffle the puzzle
+
         // Game state
         let tiles = [];
         let emptyIndex = 15;
@@ -273,6 +276,14 @@
         let seconds = 0;
         let timerInterval = null;
         let gameStarted = false;
+
+        // Clear the timer
+        function clearTimer() {
+            if (timerInterval) {
+                clearInterval(timerInterval);
+                timerInterval = null;
+            }
+        }
 
         // Initialize the puzzle
         function initPuzzle() {
@@ -286,10 +297,7 @@
             seconds = 0;
             gameStarted = false;
             updateStats();
-            if (timerInterval) {
-                clearInterval(timerInterval);
-                timerInterval = null;
-            }
+            clearTimer();
             renderBoard();
         }
 
@@ -371,8 +379,7 @@
             initPuzzle();
             
             // Perform random valid moves to shuffle
-            const shuffleMoves = 100;
-            for (let i = 0; i < shuffleMoves; i++) {
+            for (let i = 0; i < SHUFFLE_MOVES; i++) {
                 const validMoves = getValidMoves();
                 const randomMove = validMoves[Math.floor(Math.random() * validMoves.length)];
                 
@@ -385,10 +392,7 @@
             moves = 0;
             seconds = 0;
             gameStarted = false;
-            if (timerInterval) {
-                clearInterval(timerInterval);
-                timerInterval = null;
-            }
+            clearTimer();
             updateStats();
             renderBoard();
         }
@@ -435,10 +439,7 @@
 
         // Stop the timer
         function stopTimer() {
-            if (timerInterval) {
-                clearInterval(timerInterval);
-                timerInterval = null;
-            }
+            clearTimer();
         }
 
         // Show win message
@@ -454,10 +455,9 @@
             shufflePuzzle();
         }
 
-        // Initialize game on page load
+        // Initialize game on page load (show solved state first)
         window.onload = function() {
             initPuzzle();
-            shufflePuzzle();
         };
     </script>
 </body>
