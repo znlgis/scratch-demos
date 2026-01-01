@@ -1,5 +1,9 @@
 # Temporary build files
 calculator_temp/
+calculator_temp_enhanced/
+
+# Generator scripts (used for development only)
+generate_enhanced_calculator.py
 
 # OS files
 .DS_Store
