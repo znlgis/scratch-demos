@@ -1,0 +1,11 @@
+# Temporary build files
+calculator_temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
