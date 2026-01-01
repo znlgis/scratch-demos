@@ -4,11 +4,12 @@ Scratch Demos
 ## 项目列表
 
 ### 1. 计算器 (Calculator)
-一个基于 Scratch 3.0 的计算器程序，支持基础的加减乘除运算。
+一个基于 Scratch 3.0 的计算器程序，采用**按钮式界面**（类似 Windows 计算器），支持基础的加减乘除运算。
 
 - **文件**: `calculator.sb3`
 - **说明**: [查看详细使用说明](CALCULATOR_README.md)
 - **功能**: 加法、减法、乘法、除法、清除
+- **交互方式**: 鼠标点击按钮（17个可点击按钮）
 - **使用方法**: 在 [Scratch 官网](https://scratch.mit.edu) 上传并运行
 
 ## 如何使用
