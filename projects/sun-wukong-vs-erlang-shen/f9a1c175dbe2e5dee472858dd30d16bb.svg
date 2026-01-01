@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="100" viewBox="0 0 96 100">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffe4c4"/>
+      <stop offset="100%" style="stop-color:#deb887"/>
+    </linearGradient>
+    <linearGradient id="blueArmor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4169e1"/>
+      <stop offset="100%" style="stop-color:#191970"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#b8860b"/>
+    </linearGradient>
+    <linearGradient id="weapon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0c0c0"/>
+      <stop offset="100%" style="stop-color:#808080"/>
+    </linearGradient>
+  </defs>
+  <!-- Body with blue armor -->
+  <ellipse cx="48" cy="58" rx="18" ry="24" fill="url(#blueArmor)"/>
+  <!-- Gold trim on armor -->
+  <ellipse cx="48" cy="45" rx="16" ry="3" fill="url(#goldTrim)"/>
+  <ellipse cx="48" cy="70" rx="14" ry="2" fill="url(#goldTrim)"/>
+  <!-- Arms -->
+  <ellipse cx="25" cy="55" rx="7" ry="14" fill="url(#blueArmor)" transform="rotate(-10 25 55)"/>
+  <ellipse cx="71" cy="55" rx="7" ry="14" fill="url(#blueArmor)" transform="rotate(10 71 55)"/>
+  <!-- Hands -->
+  <circle cx="22" cy="68" r="5" fill="url(#skin)"/>
+  <circle cx="74" cy="68" r="5" fill="url(#skin)"/>
+  <!-- Legs with blue pants -->
+  <rect x="38" y="78" width="8" height="18" fill="url(#blueArmor)" rx="2"/>
+  <rect x="50" y="78" width="8" height="18" fill="url(#blueArmor)" rx="2"/>
+  <!-- Boots -->
+  <ellipse cx="42" cy="97" rx="7" ry="4" fill="#191970"/>
+  <ellipse cx="54" cy="97" rx="7" ry="4" fill="#191970"/>
+  <!-- Head -->
+  <circle cx="48" cy="22" r="16" fill="url(#skin)"/>
+  <!-- Hair (black, tied up) -->
+  <path d="M 35 15 Q 35 5 48 3 Q 61 5 61 15" fill="#1a1a1a"/>
+  <circle cx="48" cy="5" r="5" fill="#1a1a1a"/>
+  <!-- Gold hair ornament -->
+  <circle cx="48" cy="5" r="3" fill="url(#goldTrim)"/>
+  <!-- Third Eye (天眼) on forehead -->
+  <ellipse cx="48" cy="12" rx="3" ry="4" fill="white" stroke="#ffd700" stroke-width="1"/>
+  <circle cx="48" cy="12" r="2" fill="#ff4500"/>
+  <circle cx="48" cy="12" r="1" fill="#ffd700"/>
+  <!-- Regular Eyes -->
+  <ellipse cx="42" cy="22" rx="3" ry="3.5" fill="white"/>
+  <ellipse cx="54" cy="22" rx="3" ry="3.5" fill="white"/>
+  <circle cx="42" cy="22" r="2" fill="#1a1a1a"/>
+  <circle cx="54" cy="22" r="2" fill="#1a1a1a"/>
+  <!-- Eyebrows -->
+  <path d="M 38 18 L 45 19" stroke="#1a1a1a" stroke-width="1.5"/>
+  <path d="M 58 18 L 51 19" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- Nose -->
+  <path d="M 48 23 L 46 28 L 50 28 Z" fill="#deb887"/>
+  <!-- Mouth -->
+  <path d="M 45 31 Q 48 33 51 31" stroke="#8b4513" stroke-width="1" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="33" cy="22" rx="3" ry="5" fill="url(#skin)"/>
+  <ellipse cx="63" cy="22" rx="3" ry="5" fill="url(#skin)"/>
+  <!-- Three-Pointed Double-Edged Lance (三尖两刃刀) in rest position -->
+  <rect x="80" y="25" width="4" height="60" fill="url(#weapon)"/>
+  <!-- Three points at top -->
+  <polygon points="82,25 78,10 82,15 86,10" fill="url(#weapon)"/>
+  <polygon points="82,15 82,5 82,15" fill="url(#weapon)"/>
+  <!-- Gold decorations on weapon -->
+  <rect x="78" y="30" width="8" height="3" fill="url(#goldTrim)"/>
+  <rect x="78" y="80" width="8" height="3" fill="url(#goldTrim)"/>
+  <!-- Cape flowing behind -->
+  <path d="M 30 45 Q 20 70 25 90" stroke="#4169e1" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M 66 45 Q 76 70 71 90" stroke="#4169e1" stroke-width="8" fill="none" opacity="0.7"/>
+</svg>
