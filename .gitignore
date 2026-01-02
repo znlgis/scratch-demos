@@ -1,0 +1,22 @@
+# Temporary build files
+calculator_temp/
+calculator_temp_enhanced/
+button_calculator_temp/
+fix_calculator_temp/
+fix_blocks_temp/
+improve_calc_temp/
+
+# Generator scripts (used for development only)
+generate_enhanced_calculator.py
+generate_button_calculator.py
+fix_calculator.py
+improve_calculator.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
