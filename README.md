@@ -1,63 +1,55 @@
-# scratch-demos
+# Scratch Demos
 
-Scratch 3.0 演示项目集合 (Scratch 3.0 Demo Projects Collection)
+本仓库包含使用 Scratch 3.0 制作的游戏和项目演示。
 
-## 项目列表 (Projects)
+This repository contains game and project demos made with Scratch 3.0.
 
-### 孙悟空大战二郎神 (Sun Wukong vs Erlang Shen)
+## 贪吃蛇游戏 (Snake Game)
 
-基于中国古典名著《西游记》的战斗场景，实现孙悟空与二郎神的对决。
+**文件 (File):** `snake-game.sb3`
 
-A battle scene based on the Chinese classical novel "Journey to the West", featuring the confrontation between Sun Wukong (Monkey King) and Erlang Shen.
+### 游戏说明 (How to Play)
 
-**文件位置 (File Location):** `projects/sun-wukong-vs-erlang-shen.sb3`
+1. 在 [Scratch 官网](https://scratch.mit.edu/) 打开项目
+   - 点击 "创作" (Create)
+   - 选择 "文件" > "从电脑中上传" (File > Load from your computer)
+   - 选择 `snake-game.sb3` 文件
 
-#### 游戏说明 (Game Instructions)
+2. 点击绿旗开始，然后按空格键开始游戏
+3. 使用方向键控制蛇的移动:
+   - ↑ 向上
+   - ↓ 向下
+   - ← 向左
+   - → 向右
 
-- **孙悟空攻击 (Sun Wukong Attack):** 按 `空格键` (Press `Space`)
-- **二郎神攻击 (Erlang Shen Attack):** 按 `回车键` (Press `Enter`)
-- 每次攻击造成 10 点伤害 (Each attack deals 10 damage)
-- 初始生命值: 100 (Initial HP: 100)
-- 先将对手生命值降至 0 者获胜 (First to reduce opponent's HP to 0 wins)
+4. 吃到食物(红色苹果)可以增加分数和蛇的长度
+5. 撞到墙壁游戏结束
 
-#### 角色介绍 (Character Introduction)
+### Instructions (English)
 
-**孙悟空 (Sun Wukong / Monkey King)**
-- 武器：如意金箍棒 (Weapon: Ruyi Jingu Bang / Golden Cudgel)
-- 特征：火眼金睛、金箍 (Features: Fiery Eyes, Golden Headband)
-- 台词："吃俺老孙一棒！" (Quote: "Take this from Old Sun!")
+1. Open the project at [Scratch website](https://scratch.mit.edu/)
+   - Click "Create"
+   - Select "File" > "Load from your computer"
+   - Choose the `snake-game.sb3` file
 
-**二郎神 (Erlang Shen)**
-- 武器：三尖两刃刀 (Weapon: Three-Pointed Double-Edged Lance)
-- 特征：天眼（第三只眼）(Features: Celestial Eye / Third Eye)
-- 台词："看我三尖两刃刀！" (Quote: "Behold my Three-Pointed Lance!")
+2. Click the green flag, then press SPACE to start the game
+3. Use arrow keys to control the snake:
+   - ↑ Up
+   - ↓ Down
+   - ← Left
+   - → Right
 
-#### 如何使用 (How to Use)
+4. Eating food (red apple) increases score and snake length
+5. Hitting the wall ends the game
 
-1. 下载 `projects/sun-wukong-vs-erlang-shen.sb3` 文件
-2. 访问 [Scratch 官网](https://scratch.mit.edu/) 或 [Scratch 离线编辑器](https://scratch.mit.edu/download)
-3. 点击"文件" → "从电脑中上传" 加载 .sb3 文件
-4. 点击绿旗开始游戏
+### 游戏特性 (Features)
 
-1. Download the `projects/sun-wukong-vs-erlang-shen.sb3` file
-2. Visit [Scratch Website](https://scratch.mit.edu/) or [Scratch Offline Editor](https://scratch.mit.edu/download)
-3. Click "File" → "Load from your computer" to load the .sb3 file
-4. Click the green flag to start the game
-
-#### 项目结构 (Project Structure)
-
-```
-projects/sun-wukong-vs-erlang-shen/
-├── project.json          # 项目主配置文件 (Main project configuration)
-├── cd21514d...svg        # 天宫战场背景 (Heavenly Palace backdrop)
-├── b7853f55...svg        # 孙悟空站立造型 (Sun Wukong standing costume)
-├── e6ddc55a...svg        # 孙悟空攻击造型 (Sun Wukong attack costume)
-├── f9a1c175...svg        # 二郎神站立造型 (Erlang Shen standing costume)
-└── 6e8bd9ae...svg        # 二郎神攻击造型 (Erlang Shen attack costume)
-```
+- 🎮 经典贪吃蛇玩法 (Classic snake gameplay)
+- 🍎 随机出现的食物 (Randomly spawning food)
+- 📊 实时分数显示 (Real-time score display)
+- 🚧 边界碰撞检测 (Wall collision detection)
+- 🐍 蛇身跟随移动 (Snake body follows head)
 
 ## 许可证 (License)
 
-本项目使用 GNU LGPL v2.1 许可证。
-
-This project is licensed under GNU LGPL v2.1.
+GNU Lesser General Public License v2.1
