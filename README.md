@@ -1,31 +1,31 @@
 # scratch-demos
 Scratch Demos
 
-A collection of interactive games and demos inspired by Scratch 3.0.
+基于 Scratch 3.0 开发的互动游戏和演示项目集合。
 
-## Demos
+## 演示项目
 
 ### 数字华容道 (Number Sliding Puzzle)
 
-A classic 15-puzzle sliding game with Scratch 3.0-style aesthetics.
+使用 Scratch 3.0 开发的经典15数字滑块拼图游戏。
 
-**Features:**
-- 4x4 grid with 15 numbered tiles and one empty space
-- Click tiles to slide them into the empty space
-- Move counter and timer to track your progress
-- Tiles turn green when in the correct position
-- Win detection with congratulations message
-- Shuffle button for random solvable puzzles
-- Reset button to return to solved state
+**功能特性：**
+- 4x4 网格，包含 15 个数字方块和 1 个空位
+- 点击与空位相邻的方块进行滑动
+- 移动计数器记录步数
+- 游戏启动时自动打乱拼图
+- 完成拼图后显示祝贺消息
 
-**How to Play:**
-1. Open `number-sliding-puzzle/index.html` in a web browser
-2. Click the "打乱" (Shuffle) button to randomize the puzzle
-3. Click on tiles adjacent to the empty space to slide them
-4. Arrange numbers 1-15 in order from left to right, top to bottom
-5. The empty space should end up in the bottom-right corner
+**如何使用：**
+1. 下载 `number-sliding-puzzle/number-sliding-puzzle.sb3` 文件
+2. 访问 [Scratch 官网](https://scratch.mit.edu/projects/editor/) 或使用 Scratch 3.0 离线编辑器
+3. 点击"文件" -> "从电脑中上传"加载 .sb3 文件
+4. 点击绿旗开始游戏
+5. 点击与空位相邻的数字方块进行移动
+6. 将数字 1-15 按顺序排列，空位在右下角即为胜利
 
-[Play the Number Sliding Puzzle](number-sliding-puzzle/index.html)
+**文件说明：**
+- `number-sliding-puzzle.sb3` - Scratch 3.0 项目文件
 
 ## License
 
